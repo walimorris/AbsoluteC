@@ -31,11 +31,12 @@ int main() {
     cout.setf(ios::showpoint); 
     cout.precision(2);     
 
+    int loanDurationInMonths; 
+    
     double requestedLoanAmount; 
     double interestRate;
     double interestDeductibles; 
     double faceValue;  
-    int loanDurationInMonths;
     double loanDurationInYears; 
     double monthlyPayment; 
      
