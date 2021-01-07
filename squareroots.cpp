@@ -16,7 +16,7 @@ int main() {
     for(int i = 1; i < 11; i++) { 
         double squareroot = sqrt(i); 
 	cout << "Square Root of " << i << ": "
-	     <<  squareroot << endl; 
+	     << squareroot << endl; 
     } 
     return 0; 
 } 
