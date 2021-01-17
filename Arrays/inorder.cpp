@@ -18,7 +18,7 @@ using namespace std;
  * @return int
  */
 int outOfOrder(const double array[], int size) {
-    for ( int i = 0; i < size; i++ ) {
+    for ( int i = 0; i < size - 1; i++ ) {
         if ( array[i] > array[i+1] ) {
             return i;
         }
@@ -41,7 +41,7 @@ int main() {
     }
 
     cout << "\nLet's check that these numbers are in order." << endl;
-    int inOrder = outOfOrder(array, size - 1);
+    int inOrder = outOfOrder(array, size);
     if (inOrder == -1) {
         cout << "All submitted values in order!" << endl;
     } else {
