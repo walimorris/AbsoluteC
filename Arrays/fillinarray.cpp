@@ -14,12 +14,13 @@ int main() {
 
     int i = 0;
     while ( i < SIZE ) {
-        array[i] = i;
+        cout << "Enter a number: ";
+        cin >> array[i];
         i++;
     }
 
     for ( auto &n : array ) {
-        cout << n;
+        cout << n << " ";
     }
     cout << endl;
 }
